@@ -1,0 +1,272 @@
+body{
+    text-align: center;
+    width:600px;
+    position: absolute;
+    left: 50%;
+    margin-left:-300px;
+}
+#email{
+    text-align: end;
+    font-size: 15px;
+}
+#email a{
+    color: black;   
+}
+#email a:link, a:visited, a:active{      
+    font-size: 15px;
+    text-decoration: none;
+    border-radius:initial;
+    box-shadow: 0px 0px 0px #dad6ce;
+}
+#email a:hover{
+    display:initial;
+    position:static;   
+}
+#logo{
+    padding: 1px;
+    background-color:#ffff00;
+}
+
+div{
+    text-align: center;
+} 
+.produtos{
+    width: 300px;
+    height: 650px;
+    float:left;
+}
+.produtos img{
+    width: 280px;
+}
+h4{
+    padding: 0 30px 15px 50px;
+}
+.valor-ant{
+    color: #9f9f9f;
+    font-size: 13px;
+    margin-top: -28px;
+}
+.valor-atual{
+    color: #ff0000;
+    text-align: center;
+    font-size: 50px;
+    font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin: -20px 0px 0px 0px;   
+    display: flex;
+    justify-content: center;
+}
+
+.valor-atual sup{ 
+    position:relative;
+    font-size: 15px;
+    left: -2px;
+    top: -2px;
+    margin: 15px 0px 0px 0px;
+}
+.valor-atual sub{ 
+    position: absolute;
+    font-size: 25px;
+    margin: 25px 0px 0px -125px;
+    padding:0px 0px 0px 0px ; 
+}
+.sem-juros{
+    font-size: 15px;
+    color:#9f9f9f;
+    padding: 0 80px 0 80px;
+    margin-top: -5px;
+}
+strong{
+    color:#ff0000;
+}
+.total{
+    color:#ff0000;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top:-15px;
+    margin-bottom:-15px;
+    padding-bottom: 1px;
+}
+
+.botao{
+   margin-top: 30px;
+}
+.botao a {
+    background-color: rgb(190, 43, 65);
+}
+.botao input{
+    background-color: #33cc00;
+    color: #ffffff;
+     font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;
+    border-style: hidden;
+    text-decoration: none;
+    box-shadow: 0px 3px 4px #dad6ce;
+    padding: 9px 25px 9px 25px;
+    border-radius: 8px;
+ }
+
+ .botao a:link, a:visited, a:active{      
+     position:static;
+     font-size: 10.7px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: underline;
+     box-shadow: 0px 0px 0px #dad6ce;
+     left: 0;
+     top: 0;
+ }
+ .botao a:hover{
+     display:initial;
+     position:static;   
+ }
+.botao-vm input{
+    background-color: #33cc00;
+    color: #ffffff;
+    font-size: 18px;
+    font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;
+    border-style: hidden;
+    box-shadow: 0px 3px 4px #dad6ce;
+    padding: 9px 25px 9px 25px;
+    border-radius: 8px;
+}
+.botao-vm{
+position: relative;
+bottom:15px;
+height:0px;
+ }
+#banner-ps{
+    margin-top:1740px;
+    margin-bottom: -50px;
+}
+.botao-ps a{
+    background-color: rgb(255, 70, 174);
+}
+.botao-ps a:link, a:visited, a:active {      
+    
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family:"Arial Bold";
+    text-decoration: none;
+    border-style: hidden;
+    box-shadow:none;
+    padding: 2px 30px 2px 30px;
+    border-radius: 20px;
+    position: relative;
+    left:150px;
+    top:-65px;
+}
+.botao-ps a:hover{
+    background-color: rgb(235, 199, 172);
+    position: relative;
+    left:152px;
+    top:-63px;
+}
+#banner-rl{
+    background-color:#ffff00;
+    height: 310px; 
+}
+#banner-rl img{
+    position: absolute;
+    margin-top: -20px;
+    margin-left:-290px;
+    z-index:1000;
+}
+.txt-rl{
+    position: absolute;
+    width: 430px;
+    font-size: 18px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.botao-sb a:link, a:visited, a:active {      
+  
+    color: #ffffff;
+    font-size: 18px;
+    font-family:"Arial Black", "Arial Bold", Gadget, sans-serif;
+    text-decoration: none;
+    border-style: hidden;
+    box-shadow: 0px 3px 4px #dad6ce;
+    padding: 5px 35px 5px 35px;
+    border-radius: 8px;
+    position: relative;
+    left:70px;
+    top:100px;
+}
+.botao-sb a:hover{
+    text-decoration: none;
+    background-color: #32beac;
+    position: relative;
+    left:68px;
+    top:102px;
+}
+.botao-sb a{
+    background-color: #33cc00;
+}
+.redes-sociais{
+    position: relative;
+    top: 20px;
+    left: 180px;
+    color:#9f9f9f;
+    font-size: 23px;
+    width: 280px;
+    margin-bottom:40px;
+}
+#redes-sociais{
+    position: relative;
+    top: 100px;
+    background-color: #ffffff;
+}
+.rs{
+    color: #9f9f9f;
+}
+#icons{
+    height:auto;
+    width: 600px;
+}
+
+#icons img{
+    position:static;
+    margin: auto;
+}
+#icons ul li{  
+    display: inline-block;
+    margin: 5px 20px ;
+}
+#icons a:link, a:visited, a:active {      
+    position: relative;
+    padding: 0;
+    left:0px;
+    top:0px;
+    box-shadow: 0px 0px 0px #dad6ce;
+}
+#icons li a:hover{
+    display: inline-block;
+    position:static;   
+}
+#regulamento{
+    width: 600px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 10.7px;
+    text-align: left;
+}
+#regulamento a{
+   color: black;
+}
+#regulamento a:link, a:visited, a:active{      
+    position:static;
+    font-size: 10.7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    box-shadow: 0px 0px 0px #dad6ce;
+}
+#regulamento a:hover{
+    display:initial;
+    position:static;   
+}
+#desenvolvedora{
+    font-size: 12px;
+    background-color: #ffff00;
+    padding: 2px 0;
+}
+#produtos{
+    margin-bottom: 150vw;
+}
